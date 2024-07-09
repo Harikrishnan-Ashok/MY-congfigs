@@ -13,3 +13,4 @@ KONSOLE
           -  ah path athinte thanne css nte anu 
           -  ippa kedakkunnath default ayit olla config directory il thannea so agne thanne itta mathi
 }
+	
