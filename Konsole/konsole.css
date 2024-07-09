@@ -1,0 +1,19 @@
+QTabBar::tab {
+    margin:1px;
+    font-Size:12px;
+    padding-left: 10px; /* Adjust padding as needed */
+    min-width: 200px;
+}
+
+QTabBar::tab:selected {
+    background:#b04f48;
+    font-Weight:900;
+    border:2px solid red;
+}
+
+QTabBar::tab:!selected {
+    font-Weight:900;
+    background:#5b5e5b;
+    border:2px solid white;
+}
+
