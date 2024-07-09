@@ -1,16 +1,18 @@
-NEO-VIM
-{
-      plugins nte codes
-          - :PlugInstall to install the plugins.
-          - :PlugUpdate to install or update the plugins.
-          - :PlugDiff to review the changes from the last update.
-          - :PlugClean to remove plugins no longer in the list.  
-}
+# NEO-VIM Setup
 
-KONSOLE 
-{
-      konsole nte config edukkumbo athile path kedakkunnath sreddicanam
-          -  ah path athinte thanne css nte anu 
-          -  ippa kedakkunnath default ayit olla config directory il thannea so agne thanne itta mathi
-}
-	
+## Plugins and Commands
+
+To manage plugins in NEO-VIM, use the following commands:
+
+- `:PlugInstall` to install the plugins.
+- `:PlugUpdate` to update the installed plugins.
+- `:PlugDiff` to review changes from the last update.
+- `:PlugClean` to remove plugins that are no longer listed.
+
+# KONSOLE Configuration
+
+When configuring KONSOLE, ensure to locate the correct path for the configuration files:
+
+- The default configuration directory is typically located at `~/.config/konsole`.
+
+Make sure to adjust paths accordingly depending on your setup.
