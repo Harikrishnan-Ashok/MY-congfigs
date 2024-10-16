@@ -1,0 +1,40 @@
+
+# Font configuration
+font:
+  size: 10.0
+  normal:
+    family: DaddyTimeMono Nerd Font Mono
+    style: Regular
+  bold:
+    family: DaddyTimeMono Nerd Font Mono
+    style: Bold
+
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: '0x1e1e1e'
+    foreground: '#feffbf'
+
+  # Normal colors
+  normal:
+    black:   '0x1e1e1e'
+    red:     '0xcc6666'
+    green:   '0xb5bd68'
+    yellow:  '0xf0c674'
+    blue:    '0x81a2be'
+    magenta: '0xb294bb'
+    cyan:    '0x8abeb7'
+    white:   '0xeeeeee'
+
+  # Bright colors
+  bright:
+    black:   '0x666666'
+    red:     '0xff6666'
+    green:   '0x99cc99'
+    yellow:  '0xffcc66'
+    blue:    '0x6699cc'
+    magenta: '0xcc99cc'
+    cyan:    '0x66cccc'
+    white:   '0xffffff'
+
