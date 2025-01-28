@@ -1,0 +1,6 @@
+{
+    "directory": "~",
+    "open_multi_key": "ctrl",
+    "open_command": "xdg-open",
+    "file_command": "/home/pot/.local/bin/nvim_for_rofi.sh"
+}
