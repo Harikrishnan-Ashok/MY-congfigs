@@ -189,8 +189,7 @@ bar {
 }
 
 #for walpaper
-exec_always --no-startup-id feh --bg-fill /home/pot/Downloads/walpapers/shinobu.jpg
-#exec_always --no-startup-id feh --bg-fill /home/pot/Downloads/walpapers/furina.jpg
+exec_always --no-startup-id feh --bg-fill /home/pot/Downloads/walpapers/japan.jpg
 
 #for picom
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
