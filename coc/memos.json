@@ -1,0 +1,5 @@
+{
+  "coc-tsserver|global": {
+    "javascript.autoClosingTags.nowarning": true
+  }
+}

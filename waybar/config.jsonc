@@ -1,0 +1,29 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 10,
+  "modules-left": ["clock","hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["network","custom/volume", "battery"],
+
+  "battery": {
+    "format": "{icon}  {capacity}%",
+    "format-charging": "󰂄  {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+  },
+
+  "clock": {
+    "format": "󰥔   {:%a, %d. %b  %I:%M %p}"
+  },
+
+  "custom/volume": {
+    "exec": "~/Scripts/waybar/modules/volume.sh",
+    "interval": 1
+  },
+  
+ "hyprland/window": {
+  "format": "{}",
+  "format-empty": "hello ",
+  "interval": 1
+}
+}
