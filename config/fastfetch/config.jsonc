@@ -3,10 +3,10 @@
     "logo": {
     	"type":"kitty-direct",
         "source":"/home/pot/Wallpapers/fastfetch_logo.png",
-        "height":13,
-        "width":32,
+        "height":10,
+        "width":25,
         "padding":{
-        	"top":5,
+        	"top":2,
         	"left":2,
         }
     },

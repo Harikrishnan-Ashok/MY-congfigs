@@ -14,21 +14,25 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
-  --use plugins here
-  --  use 'preservim/nerdtree'                         -- File explorer
+  -- Use plugins here
   use 'nvim-lualine/lualine.nvim'                  -- Statusline
   use 'xiyaowong/transparent.nvim'                 -- Transparency
   use 'windwp/nvim-autopairs'                      -- Auto-close brackets
   use 'folke/which-key.nvim'                       -- Show key bindings
-  use 'nvim-tree/nvim-web-devicons'				   -- Dev Icons	
-  use 'nvim-tree/nvim-tree.lua'                    -- File Explorer
+  use 'nvim-tree/nvim-web-devicons'                -- Dev Icons	
+  use { 'junegunn/fzf', run = ': { -> fzf#install() }' }
+  use { 'junegunn/fzf.vim' } 
+	use 'nvim-tree/nvim-tree.lua'                    -- File Explorer
 
-  use {											   -- Conqurer of Completiion
-    'neoclide/coc.nvim',
-    branch = 'release'
+
+  -- CoC (Conqueror of Completion) - Uncomment if you want to use CoC instead
+   use {
+     'neoclide/coc.nvim',
+	 branch = 'release'
   }
 
   if packer_bootstrap then
     require('packer').sync()
   end
 end)
+

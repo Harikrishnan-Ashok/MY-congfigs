@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/home/pot/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
+  fzf = {
+    loaded = true,
+    path = "/home/pot/.local/share/nvim/site/pack/packer/start/fzf",
+    url = "https://github.com/junegunn/fzf"
+  },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/home/pot/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/pot/.local/share/nvim/site/pack/packer/start/lualine.nvim",
