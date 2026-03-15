@@ -1,14 +1,1 @@
-{
-  "coc-tsserver|global": {
-    "javascript.autoClosingTags.nowarning": true
-  },
-  "coc-json|global": {
-    "json-schema-cache": {
-      "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json": {
-        "etag": "W/\"91266a0be16fb8d8a2b3cb1ef0202b83978284e69aac77206dfd47ea34b0b87f\"",
-        "fileName": "4bae5c5b4ab0bf5d19f6c5e2461ec038.schema.json",
-        "updateTime": 1747784819613
-      }
-    }
-  }
-}
+{}

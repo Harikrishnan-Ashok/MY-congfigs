@@ -1,0 +1,61 @@
+{
+    "config": {
+        "shortcuts": [
+            {
+                "token": "config",
+                "command": "setsid kitty -e nvim ~/.config/samBaar/config.json"
+            },
+            {
+                "token": "bt",
+                "command": "setsid kitty -e bluetoothctl"
+            },
+            { "token": "qt", "command": "setsid qutebrowser" },
+            { "token": "f", "command": "setsid firefox" },
+            {
+                "token": "fgo",
+                "command": "qutebrowser window https://www.google.com"
+            },
+            {
+                "token": "fyt",
+                "command": "qutebrowser https://www.youtube.com"
+            },
+            {
+                "token": "fch",
+                "command": "qutebrowser https://chatgpt.com"
+            },
+            {
+                "token": "excali",
+                "command": "qutebrowser https://excalidraw.com/"
+            },
+            {
+                "token": "fgit",
+                "command": "qutebrowser https://www.github.com/Harikrishnan-Ashok"
+            },
+            {
+                "token": "fwh",
+                "command": "qutebrowser https://web.whatsapp.com"
+            },
+            {
+                "token": "whatsapp",
+                "command": "qutebrowser https://web.whatsapp.com"
+            },
+            {
+                "token": "fpr",
+                "command": "qutebrowser private-window"
+            },
+            {
+                "token": "gpt",
+                "command": "qutebrowser https://chatgpt.com"
+            },
+            { "token": "lf", "command": "setsid kitty -e lf" },
+            { "token": "nvim", "command": "setsid kitty -e nvim" },
+            { "token": "pav", "command": "setsid kitty -e pavucontrol" },
+            {
+                "token": "str",
+                "command": "flatpak run --env=QT_QPA_PLATFORM=wayland com.stremio.Stremio"
+            },
+            { "token": "s", "command": "pavucontrol" },
+            { "token": "obs", "command": "flatpak run com.obsproject.Studio" }
+        ]
+    }
+}

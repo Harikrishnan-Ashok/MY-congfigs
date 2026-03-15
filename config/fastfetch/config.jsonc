@@ -2,11 +2,11 @@
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
     	"type":"kitty-direct",
-        "source":"/home/pot/Wallpapers/fastfetch_logo.png",
-        "height":10,
-        "width":25,
+        "source":"/home/pot/wallpaper/fastfetch.png",
+        "height":15,
+        "width":30,
         "padding":{
-        	"top":2,
+        	"top":3,
         	"left":2,
         }
     },
@@ -106,12 +106,6 @@
             "type": "memory"
         },
         
-        {
-            "key": "Public IP    ",
-            "keyColor": "cyan",
-            "type": "publicip",
-            "timeout": 1000
-        },
         "break",
         {
             "type": "custom",
